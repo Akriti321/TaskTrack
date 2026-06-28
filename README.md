@@ -12,7 +12,6 @@ A production-ready task tracker built with MongoDB, Express, React, and Node.js.
 - Confirmation modal before delete
 - Dark mode stored in local storage
 - Local storage draft while creating a task
-- Description character counter
 - Loading states, empty state, hover effects, and Framer Motion animations
 
 ## Tech Stack
@@ -20,6 +19,9 @@ A production-ready task tracker built with MongoDB, Express, React, and Node.js.
 Frontend: React, Vite, React Router, Axios, React Icons, Framer Motion, React Hot Toast, CSS
 
 Backend: Node.js, Express, MongoDB Atlas, Mongoose, CORS, dotenv
+
+## Live Demo Link
+https://task-track-zeta-jet.vercel.app
 
 ## Folder Structure
 
@@ -96,7 +98,7 @@ Start the backend:
 
 ```bash
 cd server
-npm run dev
+npm start
 ```
 
 Start the frontend:
@@ -138,12 +140,3 @@ Open `http://localhost:5173`.
 4. Output directory: `dist`.
 5. Add `VITE_API_URL` using the Render backend URL.
 6. Deploy.
-
-## Screenshots
-
-Add screenshots here after deployment:
-
-- Dashboard desktop
-- Dashboard mobile
-- Dark mode
-- Create and edit task flow
