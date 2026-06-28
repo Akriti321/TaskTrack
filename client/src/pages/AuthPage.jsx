@@ -102,20 +102,6 @@ const AuthPage = ({ mode }) => {
             </label>
           ) : null}
 
-          {isSignup ? (
-            <label>
-              Username <span className="optionalText">Optional</span>
-              <span className="inputWithIcon">
-                <FiUser />
-                <input
-                  value={form.username}
-                  onChange={(event) => updateField('username', event.target.value)}
-                  placeholder="akriti"
-                  autoComplete="username"
-                />
-              </span>
-            </label>
-          ) : null}
 
           <label>
             Email
